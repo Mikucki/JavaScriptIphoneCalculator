@@ -1,0 +1,105 @@
+body {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ .calculator-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: solid red;
+   height: 900px;
+ }
+ 
+ 
+ .calculator-background {
+   border: solid black;
+   background-color: orange;
+   width: 350px;
+   height: 481px;
+   
+ }
+ 
+ 
+ .calculator-screen {
+   dispaly: inline-block;
+   flex-direction: row;
+   height: 50px;
+   text-align: right;
+   background-color: black;
+   color: white;
+   font-size: 2.5rem;
+   padding: 1rem;
+ }
+ 
+ button {
+   height: 5rem;
+   font-size: 2rem; 
+   font-weight: bold;
+   
+ }
+ 
+ .numbers-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .button-1 {
+   width: 50%;
+   padding: 0px;
+   margin: 0px;
+   font-size: 2rem; 
+ }
+ 
+ .button-2 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ .button-3 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ .button-1-row-2 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ .button-2-row-2 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ 
+ .button-3-row-2 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ .button-4-row-2 {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ .button-1-row-last {
+   width: 75%;
+   padding: 0px;
+   margin: 0px;
+ }
+ 
+ 
+ .button-4-row-2-orange {
+   width: 25%;
+   padding: 0px;
+   margin: 0px;
+   background-color: orange;
+ }
